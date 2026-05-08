@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 600" role="img" aria-label="Public dashboard police illustration">
+  <defs>
+    <linearGradient id="bg2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#e0f2fe" />
+      <stop offset="100%" stop-color="#bfdbfe" />
+    </linearGradient>
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#2563eb" />
+      <stop offset="100%" stop-color="#1d4ed8" />
+    </linearGradient>
+  </defs>
+  <rect width="900" height="600" rx="40" fill="url(#bg2)" />
+  <path d="M90 520h720v40H90z" fill="#93c5fd" opacity="0.6" />
+  <rect x="96" y="100" width="248" height="300" rx="40" fill="#ffffff" opacity="0.95" />
+  <rect x="390" y="140" width="368" height="240" rx="40" fill="#ffffff" opacity="0.95" />
+  <rect x="130" y="168" width="176" height="28" rx="14" fill="#1e40af" />
+  <rect x="130" y="214" width="176" height="22" rx="11" fill="#93c5fd" />
+  <rect x="130" y="258" width="176" height="22" rx="11" fill="#93c5fd" />
+  <rect x="130" y="304" width="176" height="22" rx="11" fill="#93c5fd" />
+  <rect x="490" y="180" width="280" height="28" rx="14" fill="#1d4ed8" />
+  <rect x="490" y="230" width="210" height="22" rx="11" fill="#93c5fd" />
+  <rect x="490" y="278" width="240" height="22" rx="11" fill="#93c5fd" />
+  <rect x="490" y="330" width="180" height="22" rx="11" fill="#93c5fd" />
+  <path d="M210 420c0-50 38-90 86-90s86 40 86 90v42H210v-42z" fill="#2563eb" />
+  <path d="M240 420c0-32 21-58 48-58s48 26 48 58v22H240v-22z" fill="#eff6ff" />
+  <path d="M450 380h72v108h-72z" fill="#1d4ed8" />
+  <path d="M546 340h72v148h-72z" fill="#2563eb" />
+  <path d="M642 300h72v188h-72z" fill="url(#lineGrad)" />
+  <path d="M283 88c0-18 15-33 33-33h92c18 0 33 15 33 33v70c0 21-17 38-38 38H321c-21 0-38-17-38-38V88z" fill="#1d4ed8" />
+  <path d="M294 100h92v26h-92z" fill="#eff6ff" />
+  <path d="M294 148h92v18h-92z" fill="#93c5fd" />
+  <circle cx="339" cy="212" r="18" fill="#eff6ff" />
+  <path d="M288 230l102-64" stroke="#2563eb" stroke-width="22" stroke-linecap="round" />
+  <path d="M420 200l100-48" stroke="#3b82f6" stroke-width="18" stroke-linecap="round" />
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="Officer efficiency police illustration">
+  <defs>
+    <linearGradient id="badgeGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1d4ed8" />
+      <stop offset="100%" stop-color="#2563eb" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" rx="32" fill="#eff6ff" />
+  <ellipse cx="300" cy="240" rx="220" ry="100" fill="#dbeafe" />
+  <path d="M220 160c0-33 27-60 60-60h40c33 0 60 27 60 60v95c0 10-8 18-18 18H238c-10 0-18-8-18-18z" fill="#1e40af" />
+  <path d="M260 132h80v28h-80z" fill="#93c5fd" />
+  <path d="M250 198h100v16H250z" fill="#93c5fd" />
+  <path d="M280 240l20-30l20 30" fill="none" stroke="#bfdbfe" stroke-width="18" stroke-linecap="round" stroke-linejoin="round" />
+  <path d="M340 120c0-22-18-40-40-40s-40 18-40 40 18 40 40 40 40-18 40-40z" fill="#60a5fa" />
+  <path d="M325 120a15 15 0 1 1-30 0 15 15 0 0 1 30 0z" fill="#eff6ff" />
+  <rect x="172" y="255" width="256" height="80" rx="16" fill="#2563eb" opacity="0.15" />
+  <path d="M210 276h180v22H210z" fill="#2563eb" />
+  <path d="M210 312h120v22H210z" fill="#2563eb" />
+  <path d="M350 312h40v22h-40z" fill="#2563eb" />
+  <text x="300" y="372" fill="#0f172a" font-family="Inter, sans-serif" font-size="34" font-weight="700" text-anchor="middle">Officer Efficiency</text>
+</svg>

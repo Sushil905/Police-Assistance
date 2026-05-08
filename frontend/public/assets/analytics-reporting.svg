@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" role="img" aria-label="Analytics reporting police illustration">
+  <defs>
+    <linearGradient id="chartGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#2563eb" />
+      <stop offset="100%" stop-color="#0ea5e9" />
+    </linearGradient>
+    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1d4ed8" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" rx="32" fill="#f8fafc" />
+  <path d="M110 340h380v28H110z" fill="#e2e8f0" />
+  <rect x="170" y="188" width="64" height="152" rx="16" fill="#93c5fd" />
+  <rect x="260" y="148" width="64" height="192" rx="16" fill="#3b82f6" />
+  <rect x="350" y="108" width="64" height="232" rx="16" fill="url(#chartGrad)" />
+  <path d="M200 90c0-22 18-40 40-40h120c22 0 40 18 40 40v70c0 58-48 104-108 104S200 218 200 160V90z" fill="url(#shieldGrad)" />
+  <path d="M224 108c0-12 10-22 22-22h100c12 0 22 10 22 22v52c0 42-34 76-76 76s-76-34-76-76V108z" fill="#eff6ff" />
+  <path d="M300 170c0 22-18 40-40 40s-40-18-40-40h80z" fill="#1d4ed8" opacity="0.85" />
+  <path d="M280 122c0 6-4 10-10 10s-10-4-10-10 4-10 10-10 10 4 10 10z" fill="#2563eb" />
+  <path d="M270 218h60v18h-60z" fill="#1e3a8a" />
+  <text x="300" y="372" fill="#0f172a" font-family="Inter, sans-serif" font-size="34" font-weight="700" text-anchor="middle">Analytics Reporting</text>
+</svg>

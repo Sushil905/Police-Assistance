@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 700" role="img" aria-label="Police support hero illustration">
+  <defs>
+    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" />
+      <stop offset="100%" stop-color="#1d4ed8" />
+    </linearGradient>
+    <linearGradient id="shield" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#60a5fa" />
+      <stop offset="100%" stop-color="#1d4ed8" />
+    </linearGradient>
+  </defs>
+  <rect width="1000" height="700" rx="48" fill="url(#bg)" />
+  <circle cx="240" cy="260" r="140" fill="#e2e8f0" opacity="0.12" />
+  <rect x="550" y="210" width="320" height="260" rx="44" fill="#fff" opacity="0.1" />
+  <path d="M230 320c0-63 51-114 114-114s114 51 114 114-51 114-114 114-114-51-114-114z" fill="#e2e8f0" />
+  <path d="M330 312c0 19-15 34-34 34s-34-15-34-34 15-34 34-34 34 15 34 34z" fill="#0f172a" />
+  <path d="M352 270c0-38-31-69-69-69s-69 31-69 69v56h138z" fill="#1d4ed8" />
+  <path d="M490 220c0-24 19-43 43-43h88c24 0 43 19 43 43v100c0 24-19 43-43 43h-88c-24 0-43-19-43-43z" fill="url(#shield)" />
+  <path d="M512 248h84v24h-84z" fill="#eff6ff" />
+  <path d="M520 292h68v14h-68z" fill="#eff6ff" />
+  <path d="M135 465c42-42 96-72 154-86 10-2 21 4 23 14 2 10-4 21-14 23-49 10-93 35-129 70-68 68-96 162-79 255 4 20-8 39-28 43-20 4-39-8-43-28-20-101 6-206 75-275z" fill="#93c5fd" opacity="0.5" />
+  <path d="M660 458c-10-52-28-99-52-141-12-22 2-49 26-53 24-4 46 10 55 33 26 57 41 118 43 182 1 22-16 40-38 42-22 2-40-16-42-38-1-28-4-56-12-83z" fill="#3b82f6" opacity="0.75" />
+  <path d="M420 520l250-140" stroke="#93c5fd" stroke-width="22" stroke-linecap="round" />
+  <path d="M540 540l180-120" stroke="#bfdbfe" stroke-width="22" stroke-linecap="round" />
+  <circle cx="430" cy="530" r="18" fill="#eff6ff" />
+  <circle cx="620" cy="450" r="14" fill="#93c5fd" />
+  <g fill="#f8fafc">
+    <path d="M220 120h240v30H220z" opacity="0.9" />
+    <path d="M220 170h180v22H220z" opacity="0.9" />
+  </g>
+</svg>
