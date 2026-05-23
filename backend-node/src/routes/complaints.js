@@ -25,9 +25,10 @@ router.get('/', authenticate, async (req, res) => {
 router.post('/', authenticate, authorize('Public User'), async (req, res) => {
   const { title, description, category, location } = req.body;
   try {
+    const [statusRows] = await pool.execute('SELECT status_id FROM complaint_status WHERE status_name = ?', ['Pending']);
     const [result] = await pool.execute(
-      'INSERT INTO complaints (user_id, title, description, category, location) VALUES (?, ?, ?, ?, ?)',
-      [req.user.id, title, description, category, location]
+      'INSERT INTO complaints (user_id, title, description, category, location, status_id, status) VALUES (?, ?, ?, ?, ?, ?, ?)',
+      [req.user.id, title, description, category, location, statusRows[0]?.status_id || null, 'Pending']
     );
     res.status(201).json({ id: result.insertId, title, status: 'Pending' });
   } catch (err) {
@@ -39,12 +40,13 @@ router.post('/', authenticate, authorize('Public User'), async (req, res) => {
 router.put('/:id/status', authenticate, authorize('Police Officer', 'Admin'), async (req, res) => {
   const { id } = req.params;
   const { status } = req.body;
-  if (!['Pending', 'Investigating', 'Solved', 'Closed'].includes(status)) {
+  if (!['Pending', 'Accepted', 'Under Investigation', 'Resolved'].includes(status)) {
     return res.status(400).json({ message: 'Invalid status value' });
   }
 
   try {
-    await pool.execute('UPDATE complaints SET status = ? WHERE id = ?', [status, id]);
+    const [statusRows] = await pool.execute('SELECT status_id FROM complaint_status WHERE status_name = ?', [status]);
+    await pool.execute('UPDATE complaints SET status = ?, status_id = ? WHERE complaint_id = ?', [status, statusRows[0]?.status_id || null, id]);
     res.json({ id, status });
   } catch (err) {
     console.error(err);
